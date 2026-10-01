@@ -103,7 +103,7 @@ display: none;
   right: 0;
   bottom: 0;
   z-index: 100;
-  font-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   transition: opacity 300ms ease;
@@ -111,7 +111,7 @@ display: none;
   visibility: hidden;
 }
 
-.menu--open .menuu__backdrop {
+.menu--open .menu__backdrop {
   visibility: visible;
   opacity: 1;
 }
