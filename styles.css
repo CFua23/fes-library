@@ -248,7 +248,7 @@ HIGHLIGHTS
   left: 0;
   width: 101vw;
   height: 12vw;
-  background: url("assets/wave.svg");
+  background: url("./assets/wave.svg");
   background-size: cover;
   background-repeat: no-repeat;
   transform: translateY(-100%);
@@ -262,7 +262,7 @@ HIGHLIGHTS
   left: 0;
   width: 101vw;
   height: 12vw;
-  background: url("./wave.svg");
+  background: url("./assets/wave.svg");
   background-size: cover;
   background-repeat: no-repeat;
   transform: translateY(100%) rotate(180deg);
@@ -440,14 +440,13 @@ footer {
   }
 
   .highlight {
-    wdith: 100%;
-    
+    width: 100%;
   }
 
   .highlight:not(:last-child) {
     margin-bottom: 24px;
   }
-  }
+}
 
   
   
